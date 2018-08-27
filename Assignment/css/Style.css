@@ -1,7 +1,32 @@
-.flex-container {
-	margin: auto;
-	display: flex;
-	background-color: #F3F3F3;
+
+@media(min-width: 700px){
+
+	.flex-container {
+		margin: auto;
+		display: flex;
+		background-color: #F3F3F3;
+		overflow: hidden;
+		flex-basis: 100%;
+		align-items: center;
+	}
+
+	.flex-top {
+		margin: auto;
+		display: flex;
+		background-color: #333;
+		width: 100%;
+		justify-content: flex-center;
+		align-items: center;
+		
+	}
+}
+.flex-top > div {
+	background-color: #333;
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+	padding-top: 44px;
+	margin-bottom: -24px;
 }
 
 .flex-container > div {
@@ -9,21 +34,29 @@
 	margin: 10px;
 	padding: 20px;
 	font-size: 20px;
-	width: 400px;
+	width: 100%;
 }
 
-ul {
-	margin: 0;
+.header {
+    background-color: #333;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
 }
 
 body { 
 	margin: 0;
 	background-color: #f1f1f1; 
+	font-family: sans-serif;
 }
 
-img { 
-	float: left;
-	}
+ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
 
 
 .topnavbar {
@@ -48,13 +81,6 @@ img {
     color: black;
 }
 
-.header {
-    background-color: #333;
-    margin: auto;
-    padding: 10px;
-    text-align: center;
-    color: white;
-}
 
 .hero-image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero.jpg");
