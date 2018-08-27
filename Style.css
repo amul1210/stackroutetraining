@@ -1,0 +1,17 @@
+body {
+	background: rgb(240,240,240);
+	margin-left: 400px;
+}
+
+div { 
+	width: 200 px;
+}
+
+blockquote {
+	border: solid;
+	border-width: 3px;
+	width: 450px;
+	padding: 1em;
+	text-align: center;
+	border-color: white;
+}
