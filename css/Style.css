@@ -38,10 +38,11 @@
 .flex-container > div {
 	background-color: #f1f1f1;
 	margin: 0px;
-	padding: 2%;
 	font-size: 20px;
 	width: 96%;
 	flex-direction: row;
+	margin-bottom: 15px;
+	margin-right: 10px;
 }
 
 .flex-container div > ul > li {
@@ -148,6 +149,20 @@ ul{
 	font-size: 20px;
 	text-align: center;
 	width: 100%;
+}
+
+.box {
+  transition: box-shadow .3s;
+  height: 300px;
+  border-radius:10px;
+  border: 2px solid #8e8c8c;
+  background: #fff;
+  float: left;
+  padding: 10px;
+  
+}
+.box:hover {
+  box-shadow: 10px 10px 5px rgba(148,148,148,.4); 
 }
 
 .footer {
