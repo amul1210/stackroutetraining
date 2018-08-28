@@ -21,7 +21,6 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	width: 100%;
 }
 .flex-top
 {
@@ -29,7 +28,6 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	width: 100%;
 	f
 }
 .flex-top > div {
