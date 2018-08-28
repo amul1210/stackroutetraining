@@ -1,5 +1,5 @@
 
-@media(min-width: 700px){
+@media(min-width: 960px){
 
 	.flex-container {
 		margin: auto;
@@ -18,6 +18,11 @@
 		align-items: center;
 		
 	}
+	/*.flex-top img {
+		display: flex;
+		padding-left: 50%;
+	}
+	*/
 }
 .flex-top > div {
 	background-color: #333;
