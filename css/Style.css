@@ -1,36 +1,41 @@
 
-@media(min-width: 960px){
+@media (max-width: 960px){
 
 	.flex-container {
+		flex-direction: column;
 		margin: auto;
-		display: flex;
 		background-color: #F3F3F3;
-		overflow: hidden;
-		flex-basis: 100%;
+		width: 100%;
 	}
 
 	.flex-top {
-		margin: auto;
-		display: flex;
+		flex-direction: column;
 		background-color: #333;
 		width: 100%;
-		justify-content: flex-center;
-		align-items: center;
-		
 	}
-	/*.flex-top img {
-		display: flex;
-		padding-left: 50%;
-	}
-	*/
+	
+}
+
+.flex-container {
+	overflow: hidden;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+}
+.flex-top
+{
+	overflow: hidden;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	f
 }
 .flex-top > div {
 	background-color: #333;
-	margin: 0px;
-	padding: 0px;
 	font-size: 20px;
 	padding-top: 44px;
-	margin-bottom: -24px;
 }
 
 .flex-container > div {
@@ -39,6 +44,7 @@
 	padding: 2%;
 	font-size: 20px;
 	width: 96%;
+	flex-direction: row;
 }
 
 .flex-container div > ul > li {
@@ -47,12 +53,11 @@
 
 
 .header {
-    background-color: #333;
     margin: auto;
-    padding: 10px;
     text-align: center;
     color: white;
 	font-family: 'Metamorphous', cursive;
+	width: 100%;
 
 }
 
@@ -60,6 +65,7 @@ body {
 	margin: 0;
 	background-color: #f1f1f1; 
 	font-family: sans-serif;
+	width: 100%;
 }
 
 ul
@@ -92,7 +98,16 @@ margin: 0;
     color: black;
 }
 
-
+.hero
+{
+	background-image: url("../img/amul.png");
+	height: 220px;
+	width: 220px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
 .hero-image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero.jpg");
 	height: 400px;
@@ -139,6 +154,7 @@ margin: 0;
 .Achievements {
 	font-size: 20px;
 	text-align: center;
+	width: 100%;
 }
 
 .footer {
