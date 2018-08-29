@@ -222,6 +222,16 @@ ul{
 		width: 100%;
 	}
 
+	.flex-container > div {
+	background-color: #f1f1f1;
+	margin: 0px;
+	font-size: 20px;
+	width: 96%;
+	margin-right: 0px;
+	padding: 0px;
+	margin-bottom: 10px;
+	}
+
 	.flex-top {
 		flex-direction: column;
 		background-color: #333;
