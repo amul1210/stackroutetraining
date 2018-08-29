@@ -43,10 +43,14 @@
 	flex-direction: row;
 	margin-bottom: 15px;
 	margin-right: 10px;
+	overflow: hidden;
+    text-overflow: ellipsis; 
 }
 
 .flex-container div > ul > li {
 	margin-bottom: 10px;
+	overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
@@ -69,7 +73,7 @@ body {
 ul{
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: 0; 
 }
 
 
@@ -167,7 +171,6 @@ ul{
 
 .footer {
     background-color: #f1f1f1;
-    padding: 10px;
     text-align: center;
 }
 
