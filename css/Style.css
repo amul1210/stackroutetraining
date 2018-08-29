@@ -1,9 +1,8 @@
 .flex-container {
 	overflow: hidden;
 	display: flex;
-	justify-content: flex-start;
-	align-items: center;
 }
+
 .flex-top
 {
 	overflow: hidden;
@@ -11,6 +10,7 @@
 	justify-content: flex-start;
 	align-items: center;
 }
+
 .flex-top > div {
 	background-color: #333;
 	font-size: 20px;
