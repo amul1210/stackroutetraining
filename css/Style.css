@@ -1,52 +1,3 @@
-
-@media (max-width: 960px){
-
-	.flex-container {
-		flex-direction: column;
-		margin: auto;
-		background-color: #F3F3F3;
-		width: 100%;
-	}
-
-	.flex-top {
-		flex-direction: column;
-		background-color: #333;
-		width: 100%;
-	}
-	
-}
-
-.imgdes {
-	display: flex;
-	overflow: hidden;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-}
-
-.imglinks {
-	display: flex;
-	list-style: none;
-	flex-flow: row wrap;
-	width: 100%;
-	margin-left: 0px;}
-
-.imglinks li {
-	flex: 1;
-	text-align: center;
-}
-
-.imglinks img {
-	width: 80px;
-	height: 80px;
-	margin-bottom: 30px;
-}
-
-.imglinks img:hover{
-	text-decoration: inherit;
-	font-size:4vw;
-}
-
 .flex-container {
 	overflow: hidden;
 	display: flex;
@@ -75,6 +26,34 @@
 	margin-bottom: 15px;
 	margin-right: 10px;
 	overflow: scroll;
+}
+
+.imgdes {
+	display: flex;
+	overflow: hidden;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+}
+
+.imglinks {
+	display: flex;
+	list-style: none;
+	flex-flow: row wrap;
+	width: 100%;
+	margin-left: 0px;
+}
+
+.imglinks li {
+	flex: 1;
+	text-align: center;
+}
+
+.imglinks img {
+	width: 80px;
+	height: 80px;
+	margin-bottom: 30px;
 }
 
 ::-webkit-scrollbar {
@@ -232,4 +211,21 @@ ul{
 .links img:hover{
 	text-decoration: inherit;
 	font-size:4vw;
+}
+
+@media (max-width: 960px){
+
+	.flex-container {
+		flex-direction: column;
+		margin: auto;
+		background-color: #F3F3F3;
+		width: 100%;
+	}
+
+	.flex-top {
+		flex-direction: column;
+		background-color: #333;
+		width: 100%;
+	}
+	
 }
